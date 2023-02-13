@@ -10,6 +10,7 @@
 
 <!-- koneksi css -->
 <link rel="stylesheet" href="css/style.css">
+
 </head>
 <body>
     <!-- header awal  -->
@@ -39,31 +40,46 @@
         </div>
         </section>
     </header>
+    <!-- Akhir Header -->
 
     <!-- Sidebar start -->
     <div class="side-bar">
 
-    <div class="profile">
+        <div class="close-side-bar">
+            <i class="fas fa-times"></i>
+        </div>
+
+        <div class="profile">
             <img src="images/pic-1.jpg" alt="">
             <h3>Buvan Alfarezy</h3>
             <span>Pelajar</span>
             <a href="profil.php" class="btn">Lihat Profil</a>
         </div>
 
-        <div class="nav navbar">
+        <nav class="navbar">
             <a href="home.php"><i class="fas fa-home"></i><span>Beranda</span></a>
-            <a href="about.php"><i class="fas fa-questions"></i><span>Tentang Kami</span></a>
+            <a href="about.php"><i class="fas fa-question"></i><span>Tentang Kami</span></a>
             <a href="materi.php"><i class="fas fa-graduation-cap"></i><span>Materi Kami</span></a>
-            <a href="home.php"><i class="fas fa-home"></i><span>Beranda</span></a>
-        </div>
+            <a href="guru.php"><i class="fas fa-chalkboard-user"></i><span>Pengajar</span></a>
+            <a href="contact.php"><i class="fas fa-headset"></i><span>Contact</span></a>
+        </nav>
 
     </div>
 
 
+<!-- Sidebar end -->
+
+<!-- footer start -->
+
+<footer class="footer">
 
 
+    &copy; Dibuat Oleh <span>Buvan Alfarezy</span> 2023
 
 
+</footer>
+
+<!-- footer end -->
 
 
 
